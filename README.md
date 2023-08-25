@@ -19,8 +19,9 @@ python app.py
 ## Usage
 Make a GET request to /convert with the following query parameters:
 
-- `source`: Source currency code (default: USD)
-- `target`: Target currency code (default: USD)
+- `source`: Source currency code
+- `target`: Target currency code
+  (now only support USD、TWD、JPY)
 - `amount`: Amount to convert (e.g., $1,525)
 
 Example:
